@@ -9,4 +9,5 @@ def hello_pybo():
 
 @bp.route('/')
 def index():
+    3/0 # 강제 오류
     return redirect(url_for('question._list'))
